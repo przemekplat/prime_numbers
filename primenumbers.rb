@@ -4,6 +4,9 @@ def CzyLiczPierwsza(liczba) #funkcja sprawdza czy dana liczba jest liczbą pierw
   while i <= liczba 
    if ((liczba / i) % 1).zero? then #sprawdzamy podzielność przez daną liczbę
      iloscDzielnikow += 1
+     if iloscDzielnikow >= 3 then
+        break
+     end
    end
    i+=1
   end
