@@ -1,2 +1,4 @@
 # prime_numbers
-Skrypt zwracający liczby naturalne z podanego zakresu 0..x
+Skrypt skrypt zwracający liczby pierwsze z podanego zakresu liczb naturalnych 0..x. 
+
+Skrypt napisany w języku Ruby.
