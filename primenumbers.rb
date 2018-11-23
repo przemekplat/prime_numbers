@@ -10,7 +10,6 @@ def CzyLiczPierwsza(liczba) #funkcja sprawdza czy dana liczba jest liczbą pierw
 return false
     end
 
-
 puts "Wprowadz zakres końcowy"
 usr_input = gets.chomp.to_i
 puts "Ze zbioru liczb od 0 do #{usr_input} liczbami pierwszymi są:"
