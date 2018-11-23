@@ -14,7 +14,7 @@ puts "Wprowadz zakres końcowy"
 usrInput = gets.chomp.to_i
 puts "Ze zbioru liczb od 0 do #{usrInput} liczbami pierwszymi są:"
 i = 0
-while i < usrInput
+while i <= usrInput
   if CzyLiczPierwsza(i) == true
     puts i
   end
