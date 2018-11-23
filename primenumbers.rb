@@ -11,10 +11,10 @@ return false
     end
 
 puts "Wprowadz zakres końcowy"
-usr_input = gets.chomp.to_i
-puts "Ze zbioru liczb od 0 do #{usr_input} liczbami pierwszymi są:"
+usrInput = gets.chomp.to_i
+puts "Ze zbioru liczb od 0 do #{usrInput} liczbami pierwszymi są:"
 i = 0
-while i < usr_input
+while i < usrInput
   if CzyLiczPierwsza(i) == false
     puts i
   end
