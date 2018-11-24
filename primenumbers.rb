@@ -1,7 +1,7 @@
 def CzyLiczPierwsza(liczba) #funkcja sprawdza czy dana liczba jest liczbą pierwszą
     i = 2.0
     iloscDzielnikow = 0 #liczba dzielników
-    while i <= liczba
+    while i <= liczba/2
      if ((liczba / i) % 1).zero? && i != liczba then #sprawdzamy podzielność przez daną liczbę
         return true
        end
